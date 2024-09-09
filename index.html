@@ -1,0 +1,44 @@
+<html lang="ja"><head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tetris - Tweb</title>
+    <meta name="description" content="テトリスをプレイできます。まだ機能は少ないですがおしゃれです">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css">
+    <style>
+        footer {
+            color: aqua;
+        }
+
+        footer a {
+            color: white;
+        }
+    </style>
+</head>
+<body style="overflow: hidden; background-color: rgb(19, 21, 25);">
+    <!-- Google tag (gtag.js) -->
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-PXMY5PBQRB"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-PXMY5PBQRB');
+    </script>
+    <script src="./main.js"></script><canvas width="600" height="800" style="position: absolute; left: 440px; top: 0px;"></canvas>
+    <footer>
+        <p>Thank you!! <a href="https://codepen.io/REast/pen/bGMyqP">Code pen</a></p>
+        <p>
+            <i class="bi bi-arrow-up-square"> Spin</i>
+        </p>
+        <p>
+            <i class="bi bi-arrow-left-square"> </i><i class="bi bi-arrow-right-square"> Move</i>
+        </p>
+        <p>
+            <i class="bi bi-arrow-down-square"> Soft Drop</i>
+        </p>
+        <p>
+            <i class="bi bi-aspect-ratio"> Hard Drop (Space key)</i>
+        </p>
+    </footer>
+
+</body></html>
